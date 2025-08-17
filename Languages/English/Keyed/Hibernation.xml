@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AlertLowHibernationPawn>{PAWN} needs hibernation</AlertLowHibernationPawn>
+  <AlertLowHibernationPawns>{NUMCULPRITS} colonists need hibernation</AlertLowHibernationPawns>
+  <AlertLowHibernationDesc>A colonist has not hibernated for a long time. If they go too long without hibernation, they will suffer from hibernation exhaustion.\n\nTo hibernate, select the colonist then right-click on their assigned bed.\n\nThese people need hibernation:\n{CULPRITS}</AlertLowHibernationDesc>
+  <AlertHibernationComplete>Hibernation complete</AlertHibernationComplete>
+  <AlertHibernationCompleteDesc>The following people have completed their hibernation and can wake up safely</AlertHibernationCompleteDesc>
+  <WarningWakingInterruptsHibernation>Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} hibernation, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers.\n\nAre you sure you wish to wake {PAWN_nameDef}?</WarningWakingInterruptsHibernation>
+  <MessageHibernatingPawnCanWakeSafely>{PAWN_nameDef} can now wake from hibernation safely.</MessageHibernatingPawnCanWakeSafely>
+  <HibernationWakeDesc>Wake up from hibernation.\n\n{PAWN_nameDef} has been in hibernation for {DURATION}.</HibernationWakeDesc>
+  <HibernationWakeExtraDesc_Exhaustion>{PAWN_nameDef} needs to hibernate for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill.</HibernationWakeExtraDesc_Exhaustion>
+  <HibernationAutoWakeDesc>When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} hibernation is complete.\n\nWhile off, {PAWN_pronoun} will continue hibernate until you wake {PAWN_objective} manually.</HibernationAutoWakeDesc>
+  <IsHibernating>{PAWN_nameDef} is hibernating.</IsHibernating>
+  <CannotHibernate>cannot hibernate</CannotHibernate>
+  <StartHibernation>Start hibernation</StartHibernation>s
+  <ConfirmExitHibernationUnderMinDays>Safely completing hibernation takes {MINDURATION}, but {PAWN_nameDef} has only been hibernating for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} hibernation, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}?</ConfirmExitHibernationUnderMinDays>
+  <Hibernating>hibernating</Hibernating>
+  <NextHibernatingNeed>{PAWN_nameDef} should hibernate in {DURATION} to avoid exhaustion.</NextHibernatingNeed>
+  <PawnShouldHibernateNow>{PAWN_nameDef} should hibernate soon to avoid exhaustion.</PawnShouldHibernateNow>
+  <Hibernation>hibernation</Hibernation>
+</LanguageData>

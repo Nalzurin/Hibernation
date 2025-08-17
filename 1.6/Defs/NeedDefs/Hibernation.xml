@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <NeedDef>
+    <defName>Hibernation</defName>
+    <needClass>Hibernation.Need_Hibernation</needClass>
+    <label>hibernation</label>
+    <description>People with the hibernation gene must hibernate every few days or quadrums. Hibernating means entering a regenerative sleep for several days\n\nGoing too long without hibernation will cause hibernation exhaustion, which massively degrades a person's physical capacities.</description>
+    <baseLevel>0.01</baseLevel>
+    <listPriority>601</listPriority>
+    <major>true</major>
+    <minIntelligence>ToolUser</minIntelligence>
+    <onlyIfCausedByGene>true</onlyIfCausedByGene>
+  </NeedDef>
+</Defs>

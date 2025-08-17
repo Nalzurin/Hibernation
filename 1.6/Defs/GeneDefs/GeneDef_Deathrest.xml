@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>Hibernation</defName>
+    <label>hibernation</label>
+    <description>Carriers of this gene must periodically enter a state of low energy, hibernating for an extended time.</description>
+    <geneClass>Hibernation.Gene_Hibernation</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_Hibernation</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <enablesNeeds>
+      <li>Hibernation</li>
+    </enablesNeeds>
+    <biostatMet>6</biostatMet>
+    <minAgeActive>3</minAgeActive>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>hibernating</symbol>
+        </li>
+        <li>
+          <symbol>dreaming</symbol>
+        </li>
+        <li>
+          <symbol>sleepiing</symbol>
+        </li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li>
+          <symbol>rester</symbol>
+        </li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>HibernationExhaustion</defName>
+    <workerClass>Hibernation.ThoughtWorker_HibernationExhaustion</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>hibernation exhaustion</label>
+        <description>The sleep calls and I fall weary. The world's pall makes all so dreary. I need to hibernatet.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
